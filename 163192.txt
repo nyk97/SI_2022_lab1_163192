@@ -1,0 +1,122 @@
+#1 git clone https://github.com/nyk97/SI_2022_lab1_163192.git
+#2 cd SI_2022_lab1_163192
+#3 nano shopping_list.txt
+#4 git add .
+#5 git commit -m "Add 5 items to the shopping list"
+#6 nano shopping_list.txt
+#7 git add .
+#8 git commit -m "Add quantities to the items."
+#9 git log
+
+commit baab69eeb443b9b5e3c4b07669c3973afced6603 (HEAD -> master, branch2, branch1)
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:51:02 2022 +0200
+
+    Add quantities to the items
+
+commit 9d18965c2cc2b0d9e2f608cde43d2fe103e82c37
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:47:46 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f38115339e3608510b5299a54313367110e8598b (origin/master, origin/HEAD)
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:26:22 2022 +0200
+
+    Update README.md
+
+commit aca45bb5c36f31695fa0a58adadd26e483d2e8eb
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:25:07 2022 +0200
+
+#10 git push
+#11 git checkout branch1
+#12 nano shopping_list.txt
+#13 git commit -m "Change quantity of item #5"
+#14 git checkout master
+#15 nano shopping_list.txt
+#16 git commit -m "Change quantity of item #2"
+#17 git push
+#18 git checkout branch2
+#19 nano shopping_list.txt
+#20 git commit -m "Modify item #4"
+#21 git log
+commit baab69eeb443b9b5e3c4b07669c3973afced6603 (HEAD -> branch2, origin/master, origin/HEAD, master, branch1)
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:51:02 2022 +0200
+
+    Add quantities to the items
+
+commit 9d18965c2cc2b0d9e2f608cde43d2fe103e82c37
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:47:46 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f38115339e3608510b5299a54313367110e8598b
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:26:22 2022 +0200
+
+    Update README.md
+
+commit aca45bb5c36f31695fa0a58adadd26e483d2e8eb
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:25:07 2022 +0200
+
+:
+commit baab69eeb443b9b5e3c4b07669c3973afced6603 (HEAD -> branch2, origin/master, origin/HEAD, master, branch1)
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:51:02 2022 +0200
+
+    Add quantities to the items
+
+commit 9d18965c2cc2b0d9e2f608cde43d2fe103e82c37
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:47:46 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f38115339e3608510b5299a54313367110e8598b
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:26:22 2022 +0200
+
+    Update README.md
+
+commit aca45bb5c36f31695fa0a58adadd26e483d2e8eb
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:25:07 2022 +0200
+
+#22 nano shopping_list.txt
+#23 git log
+commit baab69eeb443b9b5e3c4b07669c3973afced6603 (HEAD -> branch2, origin/master, origin/HEAD, master, branch1)
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:51:02 2022 +0200
+
+    Add quantities to the items
+
+commit 9d18965c2cc2b0d9e2f608cde43d2fe103e82c37
+Author: nyk97 <headowned@hotmail.com>
+Date:   Sun Apr 10 10:47:46 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f38115339e3608510b5299a54313367110e8598b
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:26:22 2022 +0200
+
+    Update README.md
+
+commit aca45bb5c36f31695fa0a58adadd26e483d2e8eb
+Author: nyk97 <46816934+nyk97@users.noreply.github.com>
+Date:   Wed Mar 30 10:25:07 2022 +0200
+
+    Initial commit
+
+#24 git checkout master
+#25 git merge branch1
+#26 git merge branch2
+#27 git add . 
+#28 git commit -m "Add docs"
+#29 git push
+
